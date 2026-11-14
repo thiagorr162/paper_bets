@@ -1,0 +1,6 @@
+# dados: nunca versionar (microdados pseudonimizados, LGPD); são baixados por src/download
+data/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

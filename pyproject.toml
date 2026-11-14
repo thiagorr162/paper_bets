@@ -1,0 +1,19 @@
+[project]
+name = "bets-saude-csp"
+version = "0.1.0"
+description = "Análises e figuras do artigo sobre jogo patológico no SUS (CSP)"
+requires-python = ">=3.12"
+dependencies = [
+    "polars>=1.0",
+    "pandas>=2.2",
+    "pyarrow>=16",
+    "numpy>=1.26",
+    "matplotlib>=3.9",
+    "pillow>=10",
+    "jupyterlab>=4.6.6",
+    "nbconvert>=7.17.2",
+    "ipykernel>=7.4.0",
+]
+
+[tool.uv]
+package = false
